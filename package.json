@@ -30,6 +30,9 @@
   "devDependencies": {
     "engine-base": "^0.1.2",
     "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
     "mocha": "*",
     "templates": "^0.6.3",
     "time-require": "github:jonschlinkert/time-require"
@@ -39,8 +42,27 @@
     "diff"
   ],
   "verb": {
+    "layout": "full",
     "related": {
-      "list": []
-    }
+      "list": [
+        "assemble",
+        "base-methods",
+        "micromatch",
+        "verb"
+      ]
+    },
+    "data": {
+      "author": {
+        "name": "Jon Schlinkert",
+        "username": "doowb"
+      }
+    },
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "base-methods",
+      "verb"
+    ]
   }
 }
