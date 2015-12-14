@@ -1,6 +1,6 @@
 {
   "name": "base-diff",
-  "description": "Plugin for adding a diff method to a 'base' application. ",
+  "description": "Plugin for adding a diff method to a 'base' application.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/base-diff",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
