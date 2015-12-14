@@ -1,0 +1,46 @@
+{
+  "name": "base-diff",
+  "description": "Plugin for adding a diff method to a 'base' application. ",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/base-diff",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/base-diff",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/base-diff/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ansi-colors": "^0.1.0",
+    "diff": "^2.2.1",
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^1.0.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "engine-base": "^0.1.2",
+    "gulp": "^3.9.0",
+    "mocha": "*",
+    "templates": "^0.6.3",
+    "time-require": "github:jonschlinkert/time-require"
+  },
+  "keywords": [
+    "base",
+    "diff"
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    }
+  }
+}
